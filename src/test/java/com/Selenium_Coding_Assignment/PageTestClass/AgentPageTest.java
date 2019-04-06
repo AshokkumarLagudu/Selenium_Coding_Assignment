@@ -31,11 +31,17 @@ public class AgentPageTest extends BaseClass{
 		agentPage=propertySalesPage.selectFifthProperty();
 	}
 	
+	
+	//Validating agent details	
 	@Test
 	public void clickOnAgentTest() throws InterruptedException{
+		
+		//Get agent name in agentpage
 	    agentName=agentPage.getAgentName();
 		agentDetailsPage=agentPage.clickOnAgentName();
 		Thread.sleep(2000);
+		
+		//Get agent name in agent details page
         agentNameinDetailsPage=agentDetailsPage.getAgentNameInDetailsPage();
 		
 		if(agentName.equals(agentNameinDetailsPage)){

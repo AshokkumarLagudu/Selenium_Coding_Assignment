@@ -23,11 +23,14 @@ public class PropertySalesPageTest extends BaseClass{
 		propertySalesPage=zooplaHomepage.searchLocation("London");
 	}
 	
+	//Printing all property prices in descending order
 	@Test
 	public void allPropertyPriceTest(){
 		String pageTitle=driver.getTitle();
 		Assert.assertEquals(pageTitle, "Property for Sale in London - Buy Properties in London - Zoopla");
 		propertySalesPage.getAllPropertyPrice();
+		
+		//Click on fifthPropery on property page
 		propertySalesPage.selectFifthProperty();
 	}
 	

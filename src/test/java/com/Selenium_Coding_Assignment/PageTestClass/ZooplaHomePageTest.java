@@ -37,12 +37,19 @@ ZooplaHomePageTest() {
 		zooplaHomepage=new ZooplaHomePage();
 	}
 	
+	//Enter location name in SearchBox
 	@Test
 	public void searchLocationTest() throws InterruptedException{
 		String homePageTitle=driver.getTitle();
+		
+		//validating title of page.
 		Assert.assertEquals(homePageTitle,"Zoopla > Search Property to Buy, Rent, House Prices, Estate Agents");
+		
+		//Enter location name in SearchBox
 		propertySalesPage=zooplaHomepage.searchLocation(prop.getProperty("locationName"));
 		Thread.sleep(3000);
+		
+		//validating title of page after click on Search button
 		String propertyPageTitle=driver.getTitle();
 		Assert.assertEquals(propertyPageTitle, "Property for Sale in London - Buy Properties in London - Zoopla");
 		
