@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Zoopla Application" duration-ms="142909" started-at="2019-04-06T08:09:33Z" finished-at="2019-04-06T08:11:56Z">
+    <groups>
+    </groups>
+    <test name="Zoopla_HomePageTest" duration-ms="33448" started-at="2019-04-06T08:09:33Z" finished-at="2019-04-06T08:10:07Z">
+      <class name="com.Selenium_Coding_Assignment.PageTestClass.ZooplaHomePageTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.Selenium_Coding_Assignment.PageTestClass.ZooplaHomePageTest@1d057a39]" name="openBrowser" is-config="true" duration-ms="13185" started-at="2019-04-06T13:39:33Z" finished-at="2019-04-06T13:39:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="searchLocationTest()[pri:0, instance:com.Selenium_Coding_Assignment.PageTestClass.ZooplaHomePageTest@1d057a39]" name="searchLocationTest" duration-ms="19404" started-at="2019-04-06T13:39:46Z" finished-at="2019-04-06T13:40:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchLocationTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.Selenium_Coding_Assignment.PageTestClass.ZooplaHomePageTest@1d057a39]" name="closeBrowser" is-config="true" duration-ms="836" started-at="2019-04-06T13:40:06Z" finished-at="2019-04-06T13:40:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.Selenium_Coding_Assignment.PageTestClass.ZooplaHomePageTest -->
+    </test> <!-- Zoopla_HomePageTest -->
+    <test name="Property" duration-ms="43515" started-at="2019-04-06T08:10:07Z" finished-at="2019-04-06T08:10:50Z">
+      <class name="com.Selenium_Coding_Assignment.PageTestClass.PropertySalesPageTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.Selenium_Coding_Assignment.PageTestClass.PropertySalesPageTest@1794d431]" name="openBrowser" is-config="true" duration-ms="31955" started-at="2019-04-06T13:40:07Z" finished-at="2019-04-06T13:40:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="allPropertyPriceTest()[pri:0, instance:com.Selenium_Coding_Assignment.PageTestClass.PropertySalesPageTest@1794d431]" name="allPropertyPriceTest" duration-ms="10307" started-at="2019-04-06T13:40:39Z" finished-at="2019-04-06T13:40:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allPropertyPriceTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.Selenium_Coding_Assignment.PageTestClass.PropertySalesPageTest@1794d431]" name="closeBrowser" is-config="true" duration-ms="1246" started-at="2019-04-06T13:40:49Z" finished-at="2019-04-06T13:40:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.Selenium_Coding_Assignment.PageTestClass.PropertySalesPageTest -->
+    </test> <!-- Property -->
+    <test name="Agent_Details" duration-ms="65874" started-at="2019-04-06T08:10:50Z" finished-at="2019-04-06T08:11:56Z">
+      <class name="com.Selenium_Coding_Assignment.PageTestClass.AgentPageTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.Selenium_Coding_Assignment.PageTestClass.AgentPageTest@4667ae56]" name="openBrowser" is-config="true" duration-ms="52049" started-at="2019-04-06T13:40:50Z" finished-at="2019-04-06T13:41:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="clickOnAgentTest()[pri:0, instance:com.Selenium_Coding_Assignment.PageTestClass.AgentPageTest@4667ae56]" name="clickOnAgentTest" duration-ms="12900" started-at="2019-04-06T13:41:42Z" finished-at="2019-04-06T13:41:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnAgentTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.Selenium_Coding_Assignment.PageTestClass.AgentPageTest@4667ae56]" name="closeBrowser" is-config="true" duration-ms="922" started-at="2019-04-06T13:41:55Z" finished-at="2019-04-06T13:41:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.Selenium_Coding_Assignment.PageTestClass.AgentPageTest -->
+    </test> <!-- Agent_Details -->
+  </suite> <!-- Zoopla Application -->
+</testng-results>

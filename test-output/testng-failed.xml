@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Zoopla Application]">
+  <test name="Zoopla_HomePageTest(failed)">
+    <classes>
+      <class name="com.Selenium_Coding_Assignment.PageTestClass.ZooplaHomePageTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="searchLocationTest"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.Selenium_Coding_Assignment.PageTestClass.ZooplaHomePageTest -->
+    </classes>
+  </test> <!-- Zoopla_HomePageTest(failed) -->
+  <test name="Property(failed)">
+    <classes>
+      <class name="com.Selenium_Coding_Assignment.PageTestClass.PropertySalesPageTest">
+        <methods>
+          <include name="allPropertyPriceTest"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.Selenium_Coding_Assignment.PageTestClass.PropertySalesPageTest -->
+    </classes>
+  </test> <!-- Property(failed) -->
+  <test name="Agent_Details(failed)">
+    <classes>
+      <class name="com.Selenium_Coding_Assignment.PageTestClass.AgentPageTest">
+        <methods>
+          <include name="clickOnAgentTest"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.Selenium_Coding_Assignment.PageTestClass.AgentPageTest -->
+    </classes>
+  </test> <!-- Agent_Details(failed) -->
+</suite> <!-- Failed suite [Zoopla Application] -->
